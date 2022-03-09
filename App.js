@@ -9,8 +9,8 @@ export default function App() {
         <View style={styles.titles}>
           <Text style={styles.title}>Model S</Text>
           <Text style={styles.subtitle}>Starting at $69,000</Text>
-          </View>
         </View>
+      </View>
     </View>
   );
 }
@@ -27,14 +27,16 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   titles: {
-marginTop: '30%',
-width: '100%',
-alignItems: 'center'
+    marginTop: '30%',
+    width: '100%',
+    alignItems: 'center'
   },
   title: {
-
+    fontSize: 40,
+    fontWeight: '600'
   },
   subtitle: {
-
+    fontSize: 16,
+    color: '#5c5e62'
   },
 });
